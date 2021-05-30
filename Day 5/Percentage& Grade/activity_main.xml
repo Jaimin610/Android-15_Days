@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:textSize="10sp"
+
+        android:hint="ENTER NUMBER 1"
+        android:id="@+id/etNum1"
+        />
+
+    <EditText
+        android:id="@+id/etNum2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="ENTER NUMBER 2"
+        android:layout_marginTop="10dp"
+        android:textSize="10sp"/>
+
+    <EditText
+        android:id="@+id/etNum3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="ENTER NUMBER 3"
+        android:layout_marginTop="10dp"
+        android:textSize="10sp"/>
+
+    <EditText
+        android:id="@+id/etNum4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="ENTER NUMBER 4"
+        android:layout_marginTop="10dp"
+        android:textSize="10sp"/>
+
+    <EditText
+        android:id="@+id/etNum5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="ENTER NUMBER 5"
+        android:layout_marginTop="10dp"
+        android:textSize="10sp"/>
+
+    <Button
+        android:id="@+id/per"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Percentage" />
+
+    <TextView
+        android:id="@+id/tvPer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:text="PER"/>
+
+    <TextView
+        android:id="@+id/tvGrade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textAlignment="textStart"
+        android:textSize="20dp"
+        android:text="GRADE "/>
+</LinearLayout>
